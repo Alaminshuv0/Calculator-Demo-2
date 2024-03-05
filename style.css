@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.section{
+    width: 100%;
+    height: 100vh;
+    background: #6ab570;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 344px;
+    height: 533px;
+    padding: 1px;
+    background: #000;
+    border-radius: 21px;
+}
+.screen{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.screen input {
+    color: white;
+    font-size: 90px;
+    width: 341px;
+    height: 163px;
+    border-bottom: #000;
+    border-right: #000;
+    background-color: #000;
+    border-radius: 20px;
+}
+.btn-group {
+    margin: 0px 0px 2px -3px;
+}
+.btn {
+    font-size: 35px;
+    color: #c4d0d4;
+    width: 70px;
+    height: 70px;
+    margin: 5px 14px;
+    background: #1c1c1c;
+    text-align: center;
+    font-weight: 500;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 100% !important;
+    transition: 0.5s;
+}
+.btn:hover, .btn:focus{
+    color: #c4d0d4;
+    background-color: rgb(107, 107, 107);
+    border-radius: 100% !important;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.b1{
+    background-color: rgb(244, 130, 0);
+}
+.b1:hover, .b1:focus{
+    
+    background-color: rgb(255, 168, 68);
+}
+.b2{
+    color: black;
+    background-color: rgb(199, 199, 199);
+}
+.b2:hover, .b2:focus{
+    
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
